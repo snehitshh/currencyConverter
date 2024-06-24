@@ -53,7 +53,10 @@ const convert =()=>{
                         <div className="relative w-full h-0.5">
                             <button
                                 type="button"
-                                className="absolute left-1/2 -translate-x-1/2 -translate-y-1/2 border-2 border-white rounded-md bg-blue-600 text-white px-2 py-0.5"
+                                className="text-white bg-gradient-to-r from-red-400 via-red-500 to-red-600 
+                                hover:bg-gradient-to-br focus:ring-4 focus:outline-none focus:ring-red-300 dark:focus:ring-red-800 shadow-lg
+                                 shadow-red-500/50 dark:shadow-lg absolute left-1/2 -translate-y-1/2 -translate-x-1/2 px-3 py-2
+                                 dark:shadow-red-800/80 font-medium rounded-lg text-sm  text-center me-2 mb-2"
                                 onClick={swap}
                             >
                                 swap
